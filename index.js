@@ -25,6 +25,14 @@ controller.hears(['hello', 'hi', 'what\'s up'], ['direct_mention', 'mention'], f
 //                    JavaScript
 //------------------------------------------------------
 
-controller.hears([/'what is JavaScript?'/], ['direct_mention', 'mention'], function (bot, message) {
+controller.hears(/(JavaScript)/gi, ['direct_mention', 'mention'], function (bot, message) {
   bot.reply(message, "JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.");
+});
+
+//------------------------------------------------------
+//                    React
+//------------------------------------------------------
+
+controller.hears(/(React)/gi, ['direct_mention', 'mention'], function (bot, message) {
+  bot.reply(message, "A JavaScript library for building user interfaces.");
 });

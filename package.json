@@ -1,5 +1,5 @@
 {
-  "name": "anonymia-bot",
+  "name": "happy-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChristopherBeards/anonymia-bot.git"
+    "url": "git+https://github.com/ChristopherBeards/happy-bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChristopherBeards/anonymia-bot/issues"
+    "url": "https://github.com/ChristopherBeards/happy-bot/issues"
   },
-  "homepage": "https://github.com/ChristopherBeards/anonymia-bot#readme",
+  "homepage": "https://github.com/ChristopherBeards/happy-bot#readme",
   "dependencies": {
     "botkit": "^0.6.14",
     "dotenv": "^6.0.0"
