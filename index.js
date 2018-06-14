@@ -16,6 +16,10 @@ controller.spawn({
 //------------------------------------------------------
 
 // Determines behaviour
+controller.on('bot_channel_join', function (bot, message) {
+  bot.reply(message, "I'm here!")
+});
+
 controller.hears(['hello', 'hi', 'what\'s up'], ['direct_mention', 'mention'], function (bot, message) {
   bot.reply(message, "Hello");
 });
